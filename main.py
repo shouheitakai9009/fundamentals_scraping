@@ -1,3 +1,3 @@
 import requests
 
-print("あいうえお")
+requests.get('https://google.com')
