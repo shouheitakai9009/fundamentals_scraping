@@ -1,0 +1,49 @@
+{
+  "columns": [
+    {
+      "label": "会社名",
+      "tag": "jpcrp_cor:CompanyNameCoverPage",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "四半期期初日",
+      "tag": "jpdei_cor:CurrentFiscalYearStartDateDEI",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "四半期期末日",
+      "tag": "jpdei_cor:CurrentFiscalYearEndDateDEI",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "四半期今Q",
+      "tag": "jpdei_cor:TypeOfCurrentPeriodDEI",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "四半期今期末日",
+      "tag": "jpdei_cor:CurrentPeriodEndDateDEI",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "売上高",
+      "tag": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
+      "context": "CurrentYTDDuration"
+    },
+    {
+      "label": "経常利益又は経常損失（△）",
+      "tag": "jpcrp_cor:OrdinaryIncomeLossSummaryOfBusinessResults",
+      "context": "CurrentYTDDuration"
+    },
+    {
+      "label": "親会社株主に帰属する当期純利益又は親会社株主に帰属する当期純損失（△）",
+      "tag": "jpcrp_cor:ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults",
+      "context": "CurrentYTDDuration"
+    },
+    {
+      "label": "包括利益",
+      "tag": "jpcrp_cor:ComprehensiveIncomeSummaryOfBusinessResults",
+      "context": "CurrentYTDDuration"
+    }
+  ]
+}

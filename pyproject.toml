@@ -8,6 +8,8 @@ authors = ["Shouhei Takai <shouheitakai.me@gmail.com>"]
 python = "^3.8"
 requests = "^2.27.1"
 selenium = "^4.1.0"
+beautifulsoup4 = "^4.10.0"
+lxml = "^4.7.1"
 
 [tool.poetry.dev-dependencies]
 

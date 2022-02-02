@@ -2,6 +2,7 @@ import zipfile
 import shutil
 import glob
 import os
+from bs4 import BeautifulSoup
 
 # ゴミディレクトリとファイルを削除
 def remove_trash(docID):
@@ -26,3 +27,7 @@ def zip_write(docID, res):
     with open(f'files/zip/{filename}', 'wb') as f:
       for chunk in res.iter_content(chunk_size=1024):
         f.write(chunk)
+
+def read_xbrl(docID):
+  with open(f"files/xbrl/{docID}.xbrl", "r", encoding="utf-8") as f:
+    return BeautifulSoup(f.read(), features="lxml")

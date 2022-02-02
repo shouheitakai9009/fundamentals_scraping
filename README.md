@@ -6,6 +6,7 @@
 3. 対象のデータを/tmpに{docID}.zipとしてファイル書き込みする
 4. XBRL>PublicDoc>xxx.xbrl のみを抽出し、/files/に{docID}.xbrlとして保存する
 5. XBRLフォルダは完全削除する
+-> 実装完了
 
 ## データを格納する
 
