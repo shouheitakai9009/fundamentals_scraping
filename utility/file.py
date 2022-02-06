@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 def remove_trash(docID):
   shutil.rmtree('files/tmp/XBRL')
   os.remove(f'files/zip/{docID}.zip')
+  # os.remove(f'files/xbrl/{docID}.xbrl')
 
 # XBRLファイルをtmpからxbrlディレクトリへ移動する
 def move_xbrl(docID):

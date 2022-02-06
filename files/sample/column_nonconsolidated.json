@@ -1,0 +1,184 @@
+{
+  "columns": [
+    {
+      "label": "会社名",
+      "tag": "jpcrp_cor:CompanyNameCoverPage",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "銘柄コード(末尾から0を抜く)",
+      "tag": "jpdei_cor:SecurityCodeDEI",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "連結または非連結",
+      "tag": "",
+      "context": ""
+    },
+    {
+      "label": "時価総額",
+      "tag": "",
+      "context": ""
+    },
+    {
+      "label": "株価(終値)",
+      "tag": "",
+      "context": ""
+    },
+    {
+      "label": "事業年度末現在発行数（株）",
+      "tag": "jpcrp_cor:NumberOfIssuedSharesAsOfFiscalYearEndIssuedSharesTotalNumberOfSharesEtc",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "四半期クォーター",
+      "tag": "jpdei_cor:TypeOfCurrentPeriodDEI",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "四半期末尾",
+      "tag": "jpdei_cor:CurrentPeriodEndDateDEI",
+      "context": "FilingDateInstant"
+    },
+    {
+      "label": "売上高",
+      "tag": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
+      "context": "CurrentYTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "売上高(YoY同期比)",
+      "tag": "jpcrp_cor:NetSalesSummaryOfBusinessResults",
+      "context": "Prior1YTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "営業利益又は営業損失（△）",
+      "tag": "jppfs_cor:OperatingIncome",
+      "context": "CurrentYTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "営業利益又は営業損失（△）(YoY同期比)",
+      "tag": "jppfs_cor:OperatingIncome",
+      "context": "Prior1YTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "経常利益又は経常損失（△）",
+      "tag": "jppfs_cor:OrdinaryIncome",
+      "context": "CurrentYTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "経常利益又は経常損失（△）(YoY同期比)",
+      "tag": "jppfs_cor:OrdinaryIncome",
+      "context": "Prior1YTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "当期純利益又は当期純損失（△）",
+      "tag": "jppfs_cor:ProfitLoss",
+      "context": "CurrentYTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "当期純利益又は当期純損失（△）(YoY同期比)",
+      "tag": "jppfs_cor:ProfitLoss",
+      "context": "Prior1YTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "資産",
+      "tag": "jppfs_cor:CurrentAssets",
+      "context": "CurrentQuarterInstant_NonConsolidatedMember"
+    },
+    {
+      "label": "資産(YoY同期比)",
+      "tag": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+      "context": "Prior1YearInstant_NonConsolidatedMember"
+    },
+    {
+      "label": "負債",
+      "tag": "jppfs_cor:Liabilities",
+      "context": "CurrentQuarterInstant_NonConsolidatedMember"
+    },
+    {
+      "label": "負債(YoY同期比)",
+      "tag": "jppfs_cor:Liabilities",
+      "context": "Prior1YearInstant_NonConsolidatedMember"
+    },
+    {
+      "label": "純資産",
+      "tag": "jpcrp_cor:NetAssetsSummaryOfBusinessResults",
+      "context": "CurrentQuarterInstant_NonConsolidatedMember"
+    },
+    {
+      "label": "純資産(YoY同期比)",
+      "tag": "jpcrp_cor:NetAssetsSummaryOfBusinessResults",
+      "context": "Prior1QuarterInstant_NonConsolidatedMember"
+    },
+    {
+      "label": "売上原価",
+      "tag": "jppfs_cor:CostOfSales",
+      "context": "CurrentYTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "売上原価(YoY同期比)",
+      "tag": "jppfs_cor:CostOfSales",
+      "context": "Prior1YTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "売上総利益又は売上総損失（△）",
+      "tag": "jppfs_cor:GrossProfit",
+      "context": "CurrentYTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "売上総利益又は売上総損失（△）(YoY同期比)",
+      "tag": "jppfs_cor:GrossProfit",
+      "context": "Prior1YTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "販売費及び一般管理費",
+      "tag": "jppfs_cor:SellingGeneralAndAdministrativeExpenses",
+      "context": "CurrentYTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "販売費及び一般管理費(YoY同期比)",
+      "tag": "jppfs_cor:SellingGeneralAndAdministrativeExpenses",
+      "context": "Prior1YTDDuration_NonConsolidatedMember"
+    },
+    {
+      "label": "営業活動によるキャッシュ・フロー",
+      "tag": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities",
+      "context": "CurrentYTDDuration"
+    },
+    {
+      "label": "営業活動によるキャッシュ・フロー(YoY同期比)",
+      "tag": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities",
+      "context": "Prior1YTDDuration"
+    },
+    {
+      "label": "投資活動によるキャッシュ・フロー",
+      "tag": "jppfs_cor:NetCashProvidedByUsedInInvestmentActivities",
+      "context": "CurrentYTDDuration"
+    },
+    {
+      "label": "投資活動によるキャッシュ・フロー(YoY同期比)",
+      "tag": "jppfs_cor:NetCashProvidedByUsedInInvestmentActivities",
+      "context": "Prior1YTDDuration"
+    },
+    {
+      "label": "財務活動によるキャッシュ・フロー",
+      "tag": "jppfs_cor:NetCashProvidedByUsedInFinancingActivities",
+      "context": "CurrentYTDDuration"
+    },
+    {
+      "label": "財務活動によるキャッシュ・フロー(YoY同期比)",
+      "tag": "jppfs_cor:NetCashProvidedByUsedInFinancingActivities",
+      "context": "Prior1YTDDuration"
+    },
+    {
+      "label": "現金及び現金同等物の残高",
+      "tag": "jppfs_cor:CashAndDeposits",
+      "context": "CurrentQuarterInstant_NonConsolidatedMember"
+    },
+    {
+      "label": "現金及び現金同等物の残高(YoY同期比)",
+      "tag": "jppfs_cor:CashAndDeposits",
+      "context": "Prior1YearInstant_NonConsolidatedMember"
+    }
+  ]
+}
